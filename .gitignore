@@ -17,7 +17,6 @@ migrate_working_dir/
 .idea/
 
 # VS Code related
-.vscode/
 
 # Flutter/Dart/Pub related
 **/doc/api/
@@ -115,8 +114,6 @@ coverage/
 .test_coverage.dart
 
 # Environment variables
-.env
-.env.*
 !.env.example
 
 # Credentials and secrets
@@ -141,3 +138,5 @@ firebase_options.dart
 !**/ios/**/default.mode2v3
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
+config.bat
+node_modules
